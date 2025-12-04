@@ -21,7 +21,7 @@ h2 {
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(45, 80, 22, 0.7), rgba(106, 168, 61, 0.7)), 
-              url('tractor-farm.jpg');
+              url('Farmers.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
