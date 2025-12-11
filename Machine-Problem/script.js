@@ -15,16 +15,13 @@ verifyBtn.onclick = function() {
     
     if (emailValue === '') {
         emailDisplay.textContent = '-';
-        emailDisplay.style.color = '#00b894';
         return;
     }
     
     if (emailValue.includes('@')) {
         emailDisplay.textContent = 'Valid';
-        emailDisplay.style.color = '#0a7e3e';
     } else {
         emailDisplay.textContent = 'Invalid';
-        emailDisplay.style.color = '#c41e3a';
     }
 };
 
